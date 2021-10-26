@@ -27,7 +27,7 @@ module.exports.changeTaskInfo = (req, res) => {
       });
     } else {
       res.status(500).send('not exist');
-    };
+    }
   } else {
     res.status(404).send('not found');
   };
